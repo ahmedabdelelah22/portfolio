@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${outfit.className}  antialiased`}
+        className={`${outfit.className} bx-20px antialiased`}
       >
         <ThemeProvider attribute='class' defaultTheme='light'>
         <Header/>

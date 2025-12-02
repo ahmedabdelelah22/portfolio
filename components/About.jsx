@@ -167,7 +167,7 @@ function About() {
              <TabsContent value='presonal'>
                 <div className='text-center xl:text-left '>
                     <h3 className='h3 mb-4'>Front-End Developer | React | Next.js </h3>
-                    <div className='subtitle max-w-xl mx-auto xl:mx-0'> 
+                    <div className='subtitle max-w-xl mx-auto xl:mx-0 text-left'> 
 
 High-Performance Web Applications Passionate Front-End Developer with strong expertise in React and Next.js, experienced in building interactive, high-quality web applications. Completed a comprehensive 80+ hour training course covering:
 

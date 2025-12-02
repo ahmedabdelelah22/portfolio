@@ -41,7 +41,6 @@ text-center xl:text-left'>
 <div className='hidden xl:flex relative'>
   <Badge containerStyle='absolute top-[24%] -left-143' icon={<RiBriefcase4Fill />} endCountNum={2} badgeText='Years of Experience' />
   <Badge containerStyle='absolute top-[95%] -left-130' icon={<RiTodoFill />} endCountNum={43} endCountText="" badgeText='Finished Projects' />
-  <Badge containerStyle='absolute top-[55%] hidden xl:-left-30 ' icon={<RiTeamFill />} endCountNum={9} endCountText="k" badgeText='happy client' />
 
 
   <div className=" w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2 bg-[url('/hero/shape-2-light.svg')]  dark:bg-[url('/hero/shape-2-dark.svg')]">
