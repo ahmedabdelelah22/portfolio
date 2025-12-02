@@ -1,26 +1,168 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+/* Dark mode variant */
+@custom-variant dark (&:is(.dark *));
 
+/* Bind Tailwind theme tokens to CSS variables */
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--card-foreground));
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
+  --color-tertiary: hsl(var(--tertiary));
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+/* LIGHT MODE */
+:root {
+  --radius: 0.65rem;
+
+  --background: 0 0% 100%;
+  --foreground: 240 19% 16%;
+
+  --card: 0 0% 100%;
+  --card-foreground: 240 19% 16%;
+
+  --popover: 0 0% 100%;
+  --popover-foreground: 240 19% 16%;
+
+  --primary: 8 99% 67%;
+  --primary-foreground: 0 0% 100%;
+
+  --secondary: 240 19% 16%;
+  --secondary-foreground: 0 0% 100%;
+
+  --tertiary: 27 82% 98%;
+
+  --muted: 240 5% 96%;
+  --muted-foreground: 237 13% 40%;
+
+  --accent: 237 9% 96%;
+  --accent-foreground: 240 19% 16%;
+
+  --border: 8 82% 92%;
+  --input: 8 82% 92%;
+  --ring: 8 99% 67%;
+
+  --hero: url('/hero/hero-bg.png');
+  --hero-shape: url('/hero/shape-1.svg');
+  --hero-shape2: url('/hero/shape-2-light.svg');
+
+  --about_shape_light : url('/about/shape-light.svg');
+
+  --dots-light: url('/dots-light.svg');
+  --dots-dark: url('/dots-dark.svg');
+}
+
+/* DARK MODE */
+.dark {
+  --background: 237 22% 20%;
+  --foreground: 0 0% 100%;
+
+  --card: 240 19% 16%;
+  --card-foreground: 0 0% 100%;
+
+  --popover: 240 19% 16%;
+  --popover-foreground: 0 0% 100%;
+
+  --primary: 8 99% 67%;
+  --primary-foreground: 0 0% 100%;
+
+  --secondary: 240 19% 16%;
+  --secondary-foreground: 0 0% 100%;
+
+  --tertiary: 237 22% 20%;
+
+  --muted: 240 9% 27%;
+  --muted-foreground: 237 13% 63%;
+
+  --accent: 240 19% 16%;
+  --accent-foreground: 0 0% 100%;
+
+  --border: 237 22% 23%;
+  --input: 237 22% 23%;
+  --ring: 8 99% 67%;
+
+--hero: url('/hero/hero-bg.png'); /* or a dark variant if you have */
+  --hero-shape: url('/hero/shape-1-dark.svg'); /* optional dark variant */
+  --hero-shape2: url('/hero/shape-2-dark.svg');
+
+  --about_shape_dark : url('/about/shape-dark.svg');
+  
+  --dots-light: url('/dots-light.svg'); /* Optional */
+  --dots-dark: url('/dots-dark.svg');
+ 
+  --work-bg-light:url("/work/project-bg-light.png")
+}
+
+/* BASE */
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  body {
+    @apply bg-background text-foreground;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* TYPOGRAPHY */
+.h1 {
+  @apply text-6xl xl:text-[72px] xl:leading-[80px] tracking-[-2px] font-bold;
 }
+
+.h2 {
+  @apply text-4xl font-bold
+}
+
+.h3 {
+   @apply text-3xl font-bold
+}
+
+.h4 {
+   @apply text-[22px] font-semibold
+}
+
+
+.subtitle {
+  @apply text-lg mb-8 font-light;
+  color: hsl(var(--muted-foreground));
+}
+
+.section-title {
+  @apply text-4xl font-bold relative w-max flex items-center justify-between gap-x-3;
+}
+
+.section-title::before {
+  content: '';
+  background-image: var(--dots-light);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 24px;
+  height: 24px;
+}
+
+.dark .section-title::before {
+  background-image: var(--dots-dark);
+}
+
+
+.badge {
+  @apply z-10 w-[200px] h-[68px] bg-white dark:backdrop-blur-[44px] shadow-2xl p-4 rounded-[10px] flex items-center gap-x-4;
+}
+
+/* swiper bullets styles  */
+/* .swiper-horizontal > .section-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizantal.swiper-pagination-bullet .section-pagination-bullets{
+  @apply bg-primary
+
+} */
