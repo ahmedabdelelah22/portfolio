@@ -12,7 +12,7 @@ function Socials({color}) {
   return (
    <div className="mx-auto sm:mx-auto xl:mx-0  flex gap-4 ">
   <a 
-    href="https://facebook.com" 
+    href="https://facebook.com/ahmed.abdelelah.924771" 
     target="_blank" 
     rel="noopener noreferrer"
     className= {`hover:text-blue-500 transition-colors duration-300 text-${color} dark:text-white`}
@@ -21,7 +21,7 @@ function Socials({color}) {
   </a>
 
   <a 
-    href="https://instagram.com" 
+    href="https://instagram.com/a7med.abdelelah" 
     target="_blank" 
     rel="noopener noreferrer"
     className={`hover:text-pink-500 transition-colors duration-300 text-${color} dark:text-white`}
@@ -30,7 +30,7 @@ function Socials({color}) {
   </a>
 
   <a 
-    href="https://twitter.com" 
+    href="https:/a7medabdelelah/twitter.com" 
     target="_blank" 
     rel="noopener noreferrer"
     className={`  transition-colors duration-300 text-${color} dark:text-white hover:text-sky-400`}
@@ -48,7 +48,7 @@ function Socials({color}) {
   </a>
 
   <a 
-    href="https://github.com/yourusername" 
+    href="https://github.com/ahmedabdelelah22" 
     target="_blank" 
     rel="noopener noreferrer"
     className= {`hover:text-black transition-colors duration-300 text-${color} dark:text-white`}

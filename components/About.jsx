@@ -141,7 +141,7 @@ function About() {
         return arr.find((item) => item.title === title);
     }
   return (
-    <section className='mt-10 pb-24'>
+    <section className='mt-10 pb-24 px-2'>
     <div className="container mx-auto">
            
               <h2 className='section-title mb-8 xl:mb-16 text-center mx-auto'>About me</h2>
@@ -200,7 +200,7 @@ Driven to create seamless and innovative user experiences, always applying best 
                 </div>
                 </TabsContent>
                  {/* Qualificaions */}
-            <TabsContent value='qualificaions'>
+            <TabsContent value='qualificaions' >
                 <div >
                     <h3 className='h3 mb-8 text-center xl:text-left'> My Awesome Journey</h3>
                     {/* expreience & education  */}

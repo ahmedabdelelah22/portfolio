@@ -9,43 +9,43 @@ const projectData =[
    name : "Leon Project ", 
    description:"A dynamic pizza menu built with React, showcasing reusable components and prop-driven customization.",
    link:"https://ahmedabdelelah22.github.io/leon/",
-   github: ""
+   github: "https://github.com/ahmedabdelelah22"
   },{image: '/work/kasper.png',
    category: 'HTML, CSS',
    name : "Kasper Project ", 
    description:"A dynamic pizza menu built with React, showcasing reusable components and prop-driven customization.",
    link:"https://ahmedabdelelah22.github.io/kasper/",
-   github: ""
+   github: "https://github.com/ahmedabdelelah22"
   },{image: '/work/elzero.png',
    category: 'HTML, CSS',
    name : "Elzero Project", 
    description:"A dynamic pizza menu built with React, showcasing reusable components and prop-driven customization.",
    link:"https://ahmedabdelelah22.github.io/elzero/",
-   github: ""
+   github: "https://github.com/ahmedabdelelah22"
   },{image: '/work/dasborad.png',
    category: 'HTML, CSS',
    name : "Dashboard Project", 
    description:"A dynamic pizza menu built with React, showcasing reusable components and prop-driven customization.",
    link:"https://ahmedabdelelah22.github.io/dasborad/",
-   github: ""
+   github: "https://github.com/ahmedabdelelah22"
   },{image: '/work/imagesearch.png',
    category: 'JavaScript',
    name : "Image Search Engine ", 
    description:"A dynamic pizza menu built with React, showcasing reusable components and prop-driven customization.",
    link:"https://imagesearch-22.netlify.app/",
-   github: ""
+   github: "https://github.com/ahmedabdelelah22"
   },{image: '/work/facebook.png',
    category: 'JavaScript',
    name : "social media (Facebook)", 
    description:"A dynamic pizza menu built with React, showcasing reusable components and prop-driven customization.",
    link:"https://face-book-app-22.netlify.app/",
-   github: ""
+   github: "https://github.com/ahmedabdelelah22"
   },{image: '/work/product.png',
    category: 'JavaScript',
    name : "Product Page", 
    description:"A dynamic pizza menu built with React, showcasing reusable components and prop-driven customization.",
    link:"https://product-page-22.netlify.app/",
-   github: ""
+   github: "https://github.com/ahmedabdelelah22"
   },
   //================================================================================================
   {image: '/work/agecal.png',
@@ -53,37 +53,37 @@ const projectData =[
    name : "age calculator ", 
    description:"A dynamic calculate age by javascripte enter your birthday output your age  .",
    link:"https://extraordinary-cheesecake-b5990e.netlify.app//",
-   github: "/"
+   github: "https://github.com/ahmedabdelelah22"
   },{image: '/work/password.png',
    category: 'JavaScript',
    name : "Generate a Random Password", 
    description:"A dynamic Generate a Random Password",
    link:"https://kaleidoscopic-kataifi-146a83.netlify.app/",
-   github: "/"
+   github: "https://github.com/ahmedabdelelah22"
   },{image: '/work/qr.png',
    category: 'JavaScript',
    name : "Qenerate QR Code ", 
    description:"A dynamic app enter  enter your text or url generate QR Code .",
    link:"https://fascinating-genie-b39527.netlify.app/",
-   github: "/"
+   github: "https://github.com/ahmedabdelelah22"
   },{image: '/work/todolist.png',
    category: 'JavaScript',
    name : "To-Do List", 
    description:"A dynamic app do to list add remove text throw what did.",
    link:"https://zingy-cranachan-f85e81.netlify.app/",
-   github: "/"
+   github: "https://github.com/ahmedabdelelah22"
   },{image: '/work/quizzaapp.png',
    category: 'JavaScript',
    name : "Simple Quize ", 
    description:"A dynamic app users can take quizzes and navigate then get result.",
    link:"htt/ps://musical-tulumba-b6114b.netlify.app/",
-   github: ""
+   github: "https://github.com/ahmedabdelelah22"
   },{image: '/work/createnote.png',
    category: 'JavaScript',
    name : " Notes Project ", 
    description:"A dynamic app user car create many note and delelate",
    link:"https://thunderous-pie-ba3a47.netlify.app/",
-   github: ""
+   github: "https://github.com/ahmedabdelelah22"
   },
   //===================================================================================================
   {image: '/work/pizza-app.png',

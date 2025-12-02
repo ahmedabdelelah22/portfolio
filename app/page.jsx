@@ -5,7 +5,7 @@ import Cta from "@/components/Cta";
 
 export default function Home() {
   return (
-   <main >
+   <main className="px-5">
   <Hero />
   <About />
   <Work/>
