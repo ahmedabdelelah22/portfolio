@@ -3,10 +3,13 @@ import {Github , Link2Icon} from 'lucide-react'
 import { Badge } from './ui/badge'
 import Image from 'next/image'
 import Link from 'next/link'
+import { useState } from 'react'
 
 function ProjectCard({project}) {
+  const [open, setOpen] = useState(false);
+
   return (
-    <Card className='group overflow-hidden relative shadow-2xl'>
+    <Card className='group overflow-hidden relative shadow-2xl' onClick={() => setOpen(!open)}>
       <CardHeader>
         {/* image */}
 <div className='relative w-full h-[300px] flex items-center justify-center 
@@ -15,10 +18,10 @@ function ProjectCard({project}) {
       <Image priority className='absolute bottom-0 shadow-2xl  pt-15' src={project.image} fill alt=''/>
       {/* btns links*/}
       <div  className='absolute inset-0 flex justify-center items-center gap-x-4'>
-        <Link href={project.link} className='bg-secondary w-[54px] h-[54px] rounded-full flex justify-center items-center scale-0 opacity-0 group-hover:scale-100 group-hover:opacity-100 group-focus:scale-100 group-focus:opacity-100 group-active:scale-100 group-active:opacity-100 transition-all duration-200 '>
+        <Link href={project.link} className={`bg-secondary w-[54px] h-[54px] rounded-full flex justify-center items-center scale-0 opacity-0 group-hover:scale-100 group-hover:opacity-100  ${open ? "scale-100 opacity-100" : "scale-0 opacity-0"} transition-all duration-200 `}>
         <Link2Icon className='text-white'/>
         </Link>
-        <Link href={project.github} className='bg-secondary w-[54px] h-[54px] rounded-full flex justify-center items-center scale-0 opacity-0 group-hover:scale-100 group-hover:opacity-100  group-focus:scale-100 group-focus:opacity-100 group-active:scale-100 group-active:opacity-100  transition-all duration-200'>
+        <Link href={project.github} className={`bg-secondary w-[54px] h-[54px] rounded-full flex justify-center items-center scale-0 opacity-0 group-hover:scale-100 group-hover:opacity-100  group-focus:scale-100 ${open ? "scale-100 opacity-100" : "scale-0 opacity-0"}  transition-all duration-200`}>
         <Github className='text-white'/>
         </Link>
         </div>

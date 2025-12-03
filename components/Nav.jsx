@@ -1,46 +1,50 @@
 "use client"
-import  Link from 'next/link'
-import { usePathname } from 'next/navigation'
-import React from 'react'
-import {motion} from  "framer-motion"
+
+import Link from "next/link"
+import { usePathname } from "next/navigation"
+import { motion } from "framer-motion"
 
 const links = [
-    {path: '/' , name:'home'},
-        {path: '/projects' , name:'my projects'},
-    {path: '/contact' , name:'contact'},
+  { path: "/", name: "home" },
+  { path: "/projects", name: "my projects" },
+  { path: "/contact", name: "contact" },
 ]
 
-function Nav({containerStyles, linkStyles , underlineStyles}) {
-    const path = usePathname();
-  return (
-    <nav className={`${containerStyles}`}>
-        {
-        links.map((link , index)=>(
-            <Link  
-          key={index}
-          href={link.path}
-          className={`${linkStyles}  capitalize`}>
-            
-            
-        {link.path === path && (
-            <motion.span
-            initial={{y:"-100%"}}
-            animate={{y:0}}
-            transition={{type:'tween'}}
-            layoutId='underline'
-            className={`${underlineStyles}`}
-            >
+export default function Nav({
+  containerStyles,
+  linkStyles,
+  underlineStyles,
+  onNavigate, // 🔥 Use this
+}) {
+  const pathname = usePathname()
 
-            </motion.span>
-        )}  
-            
+  return (
+    <nav className={containerStyles}>
+      {links.map((link) => {
+        const isActive = pathname === link.path
+
+        return (
+          <Link
+            key={link.path}
+            href={link.path}
+            onClick={() => onNavigate?.()} // 👈 Call parent callback
+            className={`${linkStyles} relative capitalize`}
+          >
+            {/* Underline */}
+            {isActive && (
+              <motion.span
+                layoutId="underline"
+                initial={{ y: "-100%" }}
+                animate={{ y: 0 }}
+                transition={{ type: "tween" }}
+                className={underlineStyles}
+              />
+            )}
+
             {link.name}
-            
-            </Link>
-        ))
-    }
+          </Link>
+        )
+      })}
     </nav>
   )
 }
-
-export default Nav

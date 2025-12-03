@@ -32,58 +32,58 @@ const projectData =[
    category: 'JavaScript',
    name : "Image Search Engine ", 
    description:"A dynamic pizza menu built with React, showcasing reusable components and prop-driven customization.",
-   link:"https://imagesearch-22.netlify.app/",
+   link:"https://ahmedabdelelah22.github.io/Image-Search-Engine/",
    github: "https://github.com/ahmedabdelelah22"
   },{image: '/work/facebook.png',
    category: 'JavaScript',
    name : "social media (Facebook)", 
    description:"A dynamic pizza menu built with React, showcasing reusable components and prop-driven customization.",
-   link:"https://face-book-app-22.netlify.app/",
-   github: "https://github.com/ahmedabdelelah22"
+   link:"https://ahmedabdelelah22.github.io/Facebook/",
+   github: "https://github.com/ahmedabdelelah22/Facebook"
   },{image: '/work/product.png',
    category: 'JavaScript',
    name : "Product Page", 
    description:"A dynamic pizza menu built with React, showcasing reusable components and prop-driven customization.",
-   link:"https://product-page-22.netlify.app/",
-   github: "https://github.com/ahmedabdelelah22"
+   link:"https://ahmedabdelelah22.github.io/Product-Page/",
+   github: "https://github.com/ahmedabdelelah22/Product-Page"
   },
   //================================================================================================
   {image: '/work/agecal.png',
    category: 'JavaScript',
    name : "age calculator ", 
    description:"A dynamic calculate age by javascripte enter your birthday output your age  .",
-   link:"https://extraordinary-cheesecake-b5990e.netlify.app//",
-   github: "https://github.com/ahmedabdelelah22"
+   link:"https://ahmedabdelelah22.github.io/Age-Calculator/",
+   github: "https://github.com/ahmedabdelelah22/Age-Calculator"
   },{image: '/work/password.png',
    category: 'JavaScript',
    name : "Generate a Random Password", 
    description:"A dynamic Generate a Random Password",
    link:"https://kaleidoscopic-kataifi-146a83.netlify.app/",
-   github: "https://github.com/ahmedabdelelah22"
+   github: "https://ahmedabdelelah22.github.io/Password-Generator/"
   },{image: '/work/qr.png',
    category: 'JavaScript',
    name : "Qenerate QR Code ", 
    description:"A dynamic app enter  enter your text or url generate QR Code .",
-   link:"https://fascinating-genie-b39527.netlify.app/",
-   github: "https://github.com/ahmedabdelelah22"
+   link:"https://ahmedabdelelah22.github.io/qr-code-generator/",
+   github: "https://github.com/ahmedabdelelah22/qr-code-generator"
   },{image: '/work/todolist.png',
    category: 'JavaScript',
    name : "To-Do List", 
    description:"A dynamic app do to list add remove text throw what did.",
-   link:"https://zingy-cranachan-f85e81.netlify.app/",
-   github: "https://github.com/ahmedabdelelah22"
+   link:"https://ahmedabdelelah22.github.io/To-Do-List/",
+   github: "https://github.com/ahmedabdelelah22/To-Do-List"
   },{image: '/work/quizzaapp.png',
    category: 'JavaScript',
    name : "Simple Quize ", 
    description:"A dynamic app users can take quizzes and navigate then get result.",
-   link:"htt/ps://musical-tulumba-b6114b.netlify.app/",
-   github: "https://github.com/ahmedabdelelah22"
+   link:"https://ahmedabdelelah22.github.io/Quiz-App/",
+   github: "https://github.com/ahmedabdelelah22/Quiz-App"
   },{image: '/work/createnote.png',
    category: 'JavaScript',
    name : " Notes Project ", 
    description:"A dynamic app user car create many note and delelate",
-   link:"https://thunderous-pie-ba3a47.netlify.app/",
-   github: "https://github.com/ahmedabdelelah22"
+   link:"https://ahmedabdelelah22.github.io/Notes-App/",
+   github: "https://github.com/ahmedabdelelah22/Notes-App"
   },
   //===================================================================================================
   {image: '/work/pizza-app.png',
@@ -111,14 +111,14 @@ const projectData =[
    category: 'React js',
    name : "usePopcorn ", 
    description:"A movie discovery app that fetches data from external APIs using custom React hooks.  ",
-   link:"https://popcorn-22.netlify.app/",
+   link:"https://popcorn-bice.vercel.app/",
    github: "https://github.com/ahmedabdelelah22/popcorn-22"
   },
   {image: '/work/quizz-app.png',
    category: 'React js',
    name : "React js", 
    description:"users can take quizzes . Implements complex state transitions using the useReducer hook,.",
-   link:"https://quizz-app-22.netlify.app/",
+   link:"https://quizzapp-gold.vercel.app/",
    github: "https://github.com/ahmedabdelelah22/quizz-app"
   },
   {image: '/work/worldwise.png',
@@ -132,7 +132,7 @@ const projectData =[
    category: 'React js',
    name : "The Wild Oasis (Admin) — Full-Stack Dashboard", 
    description:"An admin dashboard for managing resort data, bookings, and user activities.",
-   link:"https://the-wild-oasis-22.netlify.app",
+   link:"https://the-wild-oasis-six-sable.vercel.app/",
    github: "https://github.com/ahmedabdelelah22/the-wild-oasis"
   },
  
