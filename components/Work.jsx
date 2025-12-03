@@ -13,62 +13,30 @@ import ProjectCard from './ProjectCard';
 
 
 const projectData =[
-  {image: '/work/pizza-app.png',
-   category: 'React js',
-   name : "Pizza Menu", 
+  {image: '/work/dasborad.png',
+   category: 'HTML, CSS',
+   name : "Dashboard Project", 
    description:"A dynamic pizza menu built with React, showcasing reusable components and prop-driven customization.",
-   link:"https://pizza-menu-delta-six.vercel.app/",
-   github: "https://github.com/ahmedabdelelah22/quizz-app"
-  },
-  {image: '/work/travel-list.png',
-   category: 'React js',
-   name : "Travel List", 
-   description:"An interactive travel checklist app that allows users to add, edit, and remove destinations .",
-   link:"https://travel-list-seven-tau.vercel.app/",
-   github: "https://github.com/ahmedabdelelah22/travel-list"
-  },
-  {image: '/work/eat-n-split.png',
-   category: 'React js',
-   name : "Eat-n-Split ", 
-   description:"A restaurant bill-splitting handling user inputs, live calculations, and interactive UI ",
-   link:"https://eat-n-split-seven-psi.vercel.app/",
-   github: "https://github.com/ahmedabdelelah22/eat-n-split"
-  },
-  {image: '/work/popcorn.png',
-   category: 'React js',
-   name : "usePopcorn ", 
-   description:"A movie discovery app that fetches data from external APIs using custom React hooks.  ",
-   link:"https://popcorn-22.netlify.app/",
-   github: "https://github.com/ahmedabdelelah22/popcorn-22"
-  },
-  {image: '/work/quizz-app.png',
-   category: 'React js',
-   name : "React js", 
-   description:"users can take quizzes . Implements complex state transitions using the useReducer hook,.",
-   link:"https://quizz-app-22.netlify.app/",
-   github: "https://github.com/ahmedabdelelah22/quizz-app"
-  },
-  {image: '/work/worldwise.png',
-   category: 'React js',
-   name : "WorldWise", 
-   description:"A travel platform using React Router , Context API for global state, and memoization techniques",
-   link:"https://worldwise-22.vercel.app/",
-   github: "https://github.com/ahmedabdelelah22/worldWise"
-  },
-  {image: '/work/wildoasis.png',
-   category: 'React js',
-   name : "The Wild Oasis (Admin) — Full-Stack Dashboard", 
-   description:"An admin dashboard for managing resort data, bookings, and user activities.",
-   link:"https://the-wild-oasis-22.netlify.app",
-   github: "https://github.com/ahmedabdelelah22/the-wild-oasis"
-  },
- 
-  {image: '/work/wildoasis2.png',
-   category: 'Next js',
-   name : "The Wild Oasis Website — Next.js Server ", 
-   description:"website for The Wild Oasis resort, utilizing Next.js server components and actions for optimized performance.",
-   link:"https://arun-nextjs-hotel-management-customer-app.vercel.app/cabins",
-   github: "/"
+   link:"https://ahmedabdelelah22.github.io/dasborad/",
+   github: "https://github.com/ahmedabdelelah22"
+  },{image: '/work/imagesearch.png',
+   category: 'JavaScript',
+   name : "Image Search Engine ", 
+   description:"A dynamic pizza menu built with React, showcasing reusable components and prop-driven customization.",
+   link:"https://ahmedabdelelah22.github.io/Image-Search-Engine/",
+   github: "https://github.com/ahmedabdelelah22"
+  },{image: '/work/facebook.png',
+   category: 'JavaScript',
+   name : "social media (Facebook)", 
+   description:"A dynamic pizza menu built with React, showcasing reusable components and prop-driven customization.",
+   link:"https://ahmedabdelelah22.github.io/Facebook/",
+   github: "https://github.com/ahmedabdelelah22/Facebook"
+  },{image: '/work/product.png',
+   category: 'JavaScript',
+   name : "Product Page", 
+   description:"A dynamic pizza menu built with React, showcasing reusable components and prop-driven customization.",
+   link:"https://ahmedabdelelah22.github.io/Product-Page/",
+   github: "https://github.com/ahmedabdelelah22/Product-Page"
   },
 ]
 function Work() {

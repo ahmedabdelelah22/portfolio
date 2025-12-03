@@ -15,11 +15,10 @@ Message: ${message}
       text: telegramMessage,
     };
 
-    // Retry helper function
     async function sendTelegram(attempt = 1) {
       try {
         const controller = new AbortController();
-        const timeout = setTimeout(() => controller.abort(), 5000); // 5s timeout
+        const timeout = setTimeout(() => controller.abort(), 5000);
 
         const res = await fetch(url, {
           method: "POST",
@@ -33,12 +32,8 @@ Message: ${message}
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         return res.json();
       } catch (err) {
-        if (attempt < 3) {
-          console.warn(`Telegram send failed, retrying (${attempt})...`, err.message);
-          return sendTelegram(attempt + 1);
-        } else {
-          throw err;
-        }
+        if (attempt < 3) return sendTelegram(attempt + 1);
+        else throw err;
       }
     }
 
