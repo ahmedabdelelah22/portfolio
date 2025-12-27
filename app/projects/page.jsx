@@ -135,13 +135,20 @@ const projectData =[
    link:"https://the-wild-oasis-six-sable.vercel.app/",
    github: "https://github.com/ahmedabdelelah22/the-wild-oasis"
   },
- 
-  {image: '/work/wildoasis2.png',
+    {image: '/work/wildoasis2.png',
    category: 'Next js',
    name : "The Wild Oasis Website — Next.js Server ", 
    description:"website for The Wild Oasis resort, utilizing Next.js server components and actions for optimized performance.",
-   link:"https://the-wild-oasis-website-flax-ten.vercel.app/",
+   link:"https://the-wild-oasis-website-yfgk.vercel.app/",
    github: "https://the-wild-oasis-website-flax-ten.vercel.app/"
+  },
+ 
+  {image: '/work/portfoilo.png',
+   category: 'Next js',
+   name : " PortFolio— Next.js  ", 
+   description:"website for PortFolio, utilizing Next.js server components and actions for optimized performance.",
+   link:"https://portfolio-nu-sepia-14.vercel.app/",
+   github: "https://github.com/ahmedabdelelah22/portfolio"
   },
 ]
 
