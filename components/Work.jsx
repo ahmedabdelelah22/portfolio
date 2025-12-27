@@ -13,30 +13,37 @@ import ProjectCard from './ProjectCard';
 
 
 const projectData =[
-  {image: '/work/dasborad.png',
-   category: 'HTML, CSS',
-   name : "Dashboard Project", 
-   description:"A dynamic pizza menu built with React, showcasing reusable components and prop-driven customization.",
-   link:"https://ahmedabdelelah22.github.io/dasborad/",
-   github: "https://github.com/ahmedabdelelah22"
-  },{image: '/work/imagesearch.png',
-   category: 'JavaScript',
-   name : "Image Search Engine ", 
-   description:"A dynamic pizza menu built with React, showcasing reusable components and prop-driven customization.",
-   link:"https://ahmedabdelelah22.github.io/Image-Search-Engine/",
-   github: "https://github.com/ahmedabdelelah22"
-  },{image: '/work/facebook.png',
-   category: 'JavaScript',
-   name : "social media (Facebook)", 
-   description:"A dynamic pizza menu built with React, showcasing reusable components and prop-driven customization.",
-   link:"https://ahmedabdelelah22.github.io/Facebook/",
-   github: "https://github.com/ahmedabdelelah22/Facebook"
-  },{image: '/work/product.png',
-   category: 'JavaScript',
-   name : "Product Page", 
-   description:"A dynamic pizza menu built with React, showcasing reusable components and prop-driven customization.",
-   link:"https://ahmedabdelelah22.github.io/Product-Page/",
-   github: "https://github.com/ahmedabdelelah22/Product-Page"
+
+
+ 
+  {image: '/work/wildoasis2.png',
+   category: 'Next js',
+   name : "The Wild Oasis Website — Next.js Server ", 
+   description:"website for The Wild Oasis resort, utilizing Next.js server components and actions for optimized performance.",
+   link:"https://arun-nextjs-hotel-management-customer-app.vercel.app/cabins",
+   github: "/"
+  },
+    {image: '/work/wildoasis.png',
+   category: 'React js',
+   name : "The Wild Oasis (Admin) — Full-Stack Dashboard", 
+   description:"An admin dashboard for managing resort data, bookings, and user activities.",
+   link:"https://the-wild-oasis-six-sable.vercel.app/",
+   github: "https://github.com/ahmedabdelelah22/the-wild-oasis-website"
+  },
+  
+  {image: '/work/worldwise.png',
+   category: 'React js',
+   name : "WorldWise", 
+   description:"A travel platform using React Router , Context API for global state, and memoization techniques",
+   link:"https://the-wild-oasis-website-yfgk.vercel.app/",
+   github: "https://github.com/ahmedabdelelah22/worldWise"
+  },
+   {image: '/work/quizz-app.png',
+   category: 'React js',
+   name : "React js", 
+   description:"users can take quizzes . Implements complex state transitions using the useReducer hook,.",
+   link:"https://quizzapp-gold.vercel.app/",
+   github: "https://github.com/ahmedabdelelah22/quizz-app"
   },
 ]
 function Work() {
@@ -57,7 +64,7 @@ function Work() {
       pagination={{ clickable: true }}
       spaceBetween={30}
       slidesPerView={1}
-      breakpoints={{ 640:{slidesPerView:2}}}
+      breakpoints={{ 640:{slidesPerView:3}}}
      
     > 
       

@@ -140,8 +140,8 @@ const projectData =[
    category: 'Next js',
    name : "The Wild Oasis Website — Next.js Server ", 
    description:"website for The Wild Oasis resort, utilizing Next.js server components and actions for optimized performance.",
-   link:"https://arun-nextjs-hotel-management-customer-app.vercel.app/cabins",
-   github: "/"
+   link:"https://the-wild-oasis-website-flax-ten.vercel.app/",
+   github: "https://the-wild-oasis-website-flax-ten.vercel.app/"
   },
 ]
 

@@ -16,8 +16,7 @@ function Hero() {
         <div className="container mx-auto ">
           <div className='flex justify-between gap-x-8'>
 {/* text */}
-<div className='flex items-center xl:items-start max-w-[600px] flex-col justify-center mx-auto xl:mx-0
-text-center xl:text-left'>
+<div className='flex items-center xl:items-start max-w-[600px] flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left'>
   <div className='xl:hidden w-[200px] h-[200px] bg-white rounded-full relative  overflow-hidden mb-5'>
     <Image src='/hero/ahmed.png' alt='' fill className='object-cover'/>
   </div>

@@ -28,7 +28,7 @@ export default function Nav({
             key={link.path}
             href={link.path}
             onClick={() => onNavigate?.()} // 👈 Call parent callback
-            className={`${linkStyles} relative capitalize`}
+            className={`${linkStyles} relative capitalize  `}
           >
             {/* Underline */}
             {isActive && (
